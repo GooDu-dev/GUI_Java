@@ -254,6 +254,8 @@ public class App{
         playWordText="";
         wordCheck="";
         
+        text.setText("");
+
         welcome_text.setVisible(true);
         start_button.setVisible(true);
     }
