@@ -149,6 +149,8 @@ public class App{
         hangman.setVisible(true);
         text.setVisible(true);
         playWord.setVisible(true);
+        
+        text.setText("");
 
         hangman.setIcon(modImage(hang1, hang_width, hang_height));
 
@@ -254,7 +256,7 @@ public class App{
         playWordText="";
         wordCheck="";
         
-        text.setText("");
+        text.setText(word);
 
         welcome_text.setVisible(true);
         start_button.setVisible(true);
