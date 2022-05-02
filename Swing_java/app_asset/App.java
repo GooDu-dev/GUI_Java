@@ -149,6 +149,8 @@ public class App{
         text.setVisible(true);
         playWord.setVisible(true);
 
+        hangman.setIcon(modImage(hang1, hang_width, hang_height));
+
         int rand = new Random().nextInt(words.size());
         playWordText = words.get(rand);
         for(int i=0; i<playWordText.length(); i++){
@@ -246,6 +248,8 @@ public class App{
         text.setVisible(false);
         playWord.setVisible(false);
         currentImg = 0;
+        word="";
+        playWordText="";
         
         welcome_text.setVisible(true);
         start_button.setVisible(true);
