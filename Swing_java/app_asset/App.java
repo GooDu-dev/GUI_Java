@@ -61,6 +61,7 @@ public class App{
         frame.setVisible(true);
         frame.setTitle(title);
         frame.setLayout(new FlowLayout());
+        rePlay = false;
         startapp();
     }
 
@@ -247,9 +248,11 @@ public class App{
         hangman.setVisible(false);
         text.setVisible(false);
         playWord.setVisible(false);
+
         currentImg = 0;
         word="";
         playWordText="";
+        wordCheck="";
         
         welcome_text.setVisible(true);
         start_button.setVisible(true);
